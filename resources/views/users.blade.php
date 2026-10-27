@@ -22,9 +22,8 @@
 
         @foreach ($users as $user)
             <tr>
-                <td>{{ $user['username'] }}</td>
-                <td>{{ $user['full_name'] }}</td>
-                <td>{{ $user['role'] }}</td>
+<td>{{ $user->username }}</td>
+<td>{{ $user->full_name }}</td>
             </tr>
         @endforeach
     </table>
